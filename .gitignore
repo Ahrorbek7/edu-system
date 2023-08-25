@@ -1,0 +1,9 @@
+node_modules
+*.log
+.nuxt
+nuxt.d.ts
+.output
+.env
+appcha-51d80-firebase-adminsdk-sptxs-a758ef6064.json
+
+.vercel

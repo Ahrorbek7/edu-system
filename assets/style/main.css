@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo&family=Poppins:wght@100;400&family=Raleway:wght@500&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+.signin-btn {
+  background-color: #644fef;
+}
+.login-img--block {
+  background-color: rgba(149, 134, 243, 0.6);
+}
+.signin-btn:hover {
+  background-color: #4c34eb;
+}
+.signin-btn:disabled {
+  opacity: 0.5;
+}
+.chat-title {
+  font-family: "Pacifico", cursive;
+}
+.chatting-nav {
+  border-bottom-right-radius: 120px;
+}
+
+::-webkit-scrollbar{
+  background-color: transparent;
+  border-radius: 50px;
+  width: 1px;
+}
+.title {
+  max-width: 100px !important;
+}
+
+.chat-message {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 40px;
+  border-top-left-radius: 40px;
+}
+.chat-msg,.text-area-modal::-webkit-scrollbar{
+  background-color: transparent;
+  border-radius: 50px;
+  height: 7px;
+}
+.chat-msg::-webkit-scrollbar-thumb{
+  background-color: rgb(146, 44, 146);
+  border-radius: 10px;
+}
+.text-area-modal::-webkit-scrollbar{
+  width: 5px;
+}
+.text-area-modal::-webkit-scrollbar-thumb{
+  background-color: purple;
+  border-radius: 10px;
+}
+@media screen and (max-width:600px) {
+  .navbar{
+    display: none;
+  }
+  .nav-container {
+    width: 100%;
+    height: 100%;
+  }
+  .logo-site {
+    width: 120px;
+  }
+  .home-img {
+    display: none;
+  }
+  .home-txt {
+    width: 100%;
+    margin: 5rem 0;
+  }
+  .task-container {
+    margin: 3rem 0;
+  }
+  .home-link {
+    top: 1rem;
+    left: 1rem;
+  }
+  .lessons-heading {
+    font-size: 24px;
+  }
+  .modal-content {
+    width: 95%;
+    overflow-y: scroll;
+  }
+  .modal-inner {
+    flex-wrap: wrap;
+  }
+  .modal-inner iframe {
+    margin: 0;
+    width: 100%;
+  }
+  .chat-img {
+    display: none;
+  }
+  .chat-section{
+    width: 100% !important;
+  }
+  .chat-message {
+    margin: 1rem 2rem !important;
+    width: 300px !important;
+    height: 230px;
+  }
+  .chat-msg {
+    margin: 0 !important;
+  }
+  .new {
+    width: 100% !important;
+  }
+  .send-btn {
+    padding: 1rem !important;
+  }
+  .home-linke {
+    color: white;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .mobile-navbar {
+    display: flex;
+  }
+  .profileImg {
+    width: 100px;
+  }
+  .profile-block {
+   padding: 0 1rem;
+  }
+  .profile-heading {
+    display: none;
+  }
+  .login-img{
+    display: none;
+  }
+  .login-info {
+    width: 100% !important;
+  }
+  .login-info input {
+    width: 70%;
+    margin: 1rem 3rem;
+  }
+  .login-info i {
+    left: 13%;
+  }
+  .login-info p {
+    font-size: 15px;
+  }
+  .kip {
+    margin: 0.5rem 3rem;
+  }
+  .login-info button {
+    width: 70%;
+    margin: 0 3rem;
+  }
+}
